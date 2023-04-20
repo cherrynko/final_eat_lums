@@ -10,7 +10,6 @@ import { useDispatch, useSelector } from 'react-redux';
 export const Address = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  console.log("");
 
   const [address, setAddress] = useState('');
   const [Submitted, setSubmitted] = useState(false);
